@@ -1,4 +1,4 @@
-terraform module
+Sample Scenario
 ===========
 
 Sample terraform config that uses the modular Terraform Azure configs. A virtual network with a public and private subnet (and associated route tables) is created. Two private Ubuntu 16 VMs are created in the private subnet and one Ubuntu 16 VM is created in the public subnet
