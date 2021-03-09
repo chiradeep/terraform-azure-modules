@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # set -x
-APP_NAME=Terraform1
-APP_URL=http://terraformer.io
-APP_PASSWORD=T5rrafhre4rm.
+APP_NAME=UseYourOwnAppNameFromAzure
+APP_URL=http://UseYourOwnAppName.io
+APP_PASSWORD=YouHaveToKnowThisFromYourAzureSubscription.
 
 #find the subscription id. Warning: assumes exactly one item in the list
 sub_id=$(azure account list --json | jq -r ".[] | .id")
